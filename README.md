@@ -1,5 +1,9 @@
 # Spoti App
-Página web usando los servicios de [Spotify for Developers](https://developer.spotify.com/)
+Página web usando los servicios de [Spotify for Developers](https://developer.spotify.com/). Puedes apreciar la web final dando [click acá](https://fjalcode-spoti-app.web.app/)
+
+<img src="src/assets/img/responsive-test.png" width="900px;"/>
+
+> Previsualización usando [Am I Responsive?](http://ami.responsivedesign.is/)
 
 ## Herramientas
 

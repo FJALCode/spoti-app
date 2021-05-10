@@ -23,6 +23,7 @@ export class HomeComponent {
   expireToken() {
     let time = new Date().getTime() - spotify.sesionToken.getTime();
     if (spotify.token == '' || time > spotify.expireToken * 1000) {
+      
       this._spotifyService.getNewToken()
         .subscribe(() => {
           this.getNewReleases();

@@ -3,7 +3,16 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: true,
+  firebaseConfig: {
+    apiKey: "AIzaSyABH5Gl6xuVsGbJy7GXUaGPbR1g8f2Cxhs",
+    authDomain: "fjalcode-spoti-app.firebaseapp.com",
+    projectId: "fjalcode-spoti-app",
+    storageBucket: "fjalcode-spoti-app.appspot.com",
+    messagingSenderId: "978447933165",
+    appId: "1:978447933165:web:b58aca297ce66c799ab6e4",
+    measurementId: "G-5XMFZ0XFQS"
+  }
 };
 
 export const spotify = {
@@ -13,7 +22,7 @@ export const spotify = {
   urlApiSpotify:'https://api.spotify.com',
   urlNewReleases:'/v1/browse/new-releases',
   urlArtista: '/v1/artists',
-  urlService:'http://localhost:3000/spotify',
+  urlService:'https://spoti-service.herokuapp.com/spotify',
   expireToken: 0,
   sesionToken: new Date()
 }

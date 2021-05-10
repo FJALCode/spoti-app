@@ -48,6 +48,7 @@ export class SpotifyService {
         spotify.token = data['access_token'];
         spotify.expireToken = data['expires_in'];
         spotify.sesionToken = new Date();
+        
       }))
   }
 

@@ -26,6 +26,7 @@ export class ArtistaComponent {
     if (spotify.token == '' || time > spotify.expireToken * 1000) {
       this._spotifyService.getNewToken()
         .subscribe(() => {
+          
           this.getData();
         })
     } else {

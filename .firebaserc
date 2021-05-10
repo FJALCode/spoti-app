@@ -1,0 +1,14 @@
+{
+  "targets": {
+    "fjalcode-spoti-app": {
+      "hosting": {
+        "spotiapp": [
+          "fjalcode-spoti-app"
+        ]
+      }
+    }
+  },
+  "projects": {
+    "default": "fjalcode-spoti-app"
+  }
+}
