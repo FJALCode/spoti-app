@@ -22,6 +22,18 @@ ng serve -o
 > Ejecuta `ng deploy` para ejecutar a nivel de producción un build y deploy en firebase
 
 
+| Environment      	| Description                                       	|
+|----------------	|---------------------------------------------------	|
+| token          	| Api Token de Spotify                                 	|
+| clientId       	| Cliente ID del API de Spotify                        	|
+| clientSecret   	| Client Secret del Api de Spotify                    	|
+| urlApiSpotify  	| Url del Api de Spotify                            	|
+| urlNewReleases 	| Endpoint de Spotify de los nuevos lanzamientos       	|
+| urlArtista     	| Endpoint de Spotify de los artistas                  	|
+| urlService     	| Endpoint del servicio spoti-service               	|
+| expireToken    	| Tiempo de duración del token generado             	|
+| sesionToken    	| Tiempo de duración desde el ultimo token generado 	|
+
 ## Autor
 
 

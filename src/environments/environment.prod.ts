@@ -11,5 +11,5 @@ export const spotify = {
   urlArtista: '/v1/artists',
   urlService:'http://localhost:3000/spotify',
   expireToken: 0,
-  firstSesion: new Date()
+  sesionToken: new Date()
 }
